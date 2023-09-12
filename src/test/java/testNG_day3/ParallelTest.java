@@ -18,6 +18,9 @@ public class ParallelTest {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.techcircle.dev");
+		System.out.println();
+		
+		
 	}
 	
 	@Test
