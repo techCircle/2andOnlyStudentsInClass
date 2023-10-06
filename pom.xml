@@ -7,8 +7,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<maven.compiler.source>11</maven.compiler.source>
-		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>9</maven.compiler.source>
+		<maven.compiler.target>9</maven.compiler.target>
 	</properties>
 
 
@@ -78,8 +78,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version> <!-- Use the appropriate version -->
 				<configuration>
-					<source>11</source> <!-- Set to your desired Java version -->
-					<target>11</target> <!-- Set to your desired Java version -->
+					<source>9</source> <!-- Set to your desired Java version -->
+					<target>9</target> <!-- Set to your desired Java version -->
 				</configuration>
 			</plugin>
 		</plugins>
