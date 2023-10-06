@@ -69,15 +69,27 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>smoke.xml</suiteXmlFile>
-					</suiteXmlFiles>					
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version> <!-- Use the appropriate version -->
+				<configuration>
+					<source>11</source> <!-- Set to your desired Java version -->
+					<target>11</target> <!-- Set to your desired Java version -->
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
 </project>
